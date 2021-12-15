@@ -1,2 +1,4 @@
 # JYLinOK.github.io
-A GitHub web of JY Lin.
+***
+## The github website of Jinwei Lin, which was built by Way.
+***
