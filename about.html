@@ -5,31 +5,83 @@
     <meta charset="utf-8">
 <meta name="keywords" content="YDOOK, Jinwei Lin">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Introduction - YDOOK</title>
-    <link rel="icon" href="./pictures/icon/y.ico" />
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?acf5508bf34b223f602304bd5cfa143a";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+    <title>网站介绍 - YDOOK</title>
+    <link rel="icon" href="./pictures/icon/Y.ico" />
 
 </head>
 
 <body>
     <div class="HeadLineM">
     <div class="ToolBtn" onclick="Btn1()">YDOOK</div>
-    <div class="ToolBtn" onclick="Btn2()">About</div>
-    <div class="ToolBtn" onclick="Btn3()">Author</div>
-    <div class="ToolBtn" onclick="Btn4()">Business</div>
-    <div class="ToolBtn" onclick="Btn5()">Tutorials</div>
-    <div class="ToolBtn" onclick="Btn6()">Opensources</div>
-    <div class="ToolBtn" onclick="Btn7()">Ecosystem</div>
+    <div class="ToolBtn" onclick="Btn2()">关于</div>
+    <div class="ToolBtn" onclick="Btn3()">作者</div>
+    <div class="ToolBtn" onclick="Btn4()">各类教程</div>
+    <div class="ToolBtn" onclick="Btn5()">技术科研</div>
+    <div class="ToolBtn" onclick="Btn6()">开源项目</div>
+    <div class="ToolBtn" onclick="Btn7()">旗下网站</div>
     <div class="ToolBtn" onclick="Btn9()">YDOOK Github</div>
     <div class="ToolBtn" onclick="Btn10()">YDOOK CSDN</div>
-    <div class="ToolBtn" onclick="Btn11()">To Chinese</div>
+    <div class="ToolBtn" onclick="Btn16()">To English</div>
 
+</div>
+    <div class="MenuBox" id="MenuBox">
+    <div class="MenuBtn" id="MenuBtn" ondblclick="MenuFold()"  onmousedown="MenuDown(event)"></div>
+    <div id="MenuPanel" class="MenuPanel">
+        <ul class="BigAUi"><div onclick="Menu(this, 'M1')">快速导航</div>
+            <ul id="M1" class="AUi">
+                <li class="ALi" onclick="thirdparty6()">YDOOK CN</li>
+                <li class="ALi" onclick="thirdparty7()">YDOOK EN</li>
+            </ul>
+        </ul>
+
+        <ul class="BigAUi"><div onclick="Menu(this, 'M2')">关于作者</div>
+            <ul id="M2" class="AUi">
+                <li class="ALi" onclick="Btn4()">各类教程</li>
+                <li class="ALi" onclick="Btn5()">技术科研</li>
+            </ul>
+        </ul>
+
+        <div class="NavigateBox">
+            <div class="NavigateBoxLeft">
+                <div class="NavigateBoxLeftBtn" onclick="Navigation('go1')">&#60;&#60;</div>
+                <div class="NavigateBoxLeftBtn" onclick="Navigation('go2')">&#62;&#62;</div>
+            </div>
+            <div class="NavigateBoxRight">
+                <div class="NavigateBoxRightBtn" onclick="Navigation('go3')">&uArr;</div>
+                <div class="NavigateBoxRightBtn" onclick="Navigation('go4')">&rArr;</div>
+                <div class="NavigateBoxRightBtn" onclick="Navigation('go5')">&dArr;</div>
+            </div>
+        </div>
+
+    </div>
 </div>
 
     <div class="CenterBox">
         <div class="HoldBox">
             <!-- =============================== -->
-            <div class="NormalTitleBox">
-                About YDOOK
+            <div class="PictureBack">
+                <br>
+                <br>
+                <div class="PictureCent" style="background: url(./pictures/gif/Y.gif) no-repeat; 
+        background-size: 100% 100%; width: 260px; height: 250px;  animation: moveway 6s infinite;">
+                </div>
+                <br>
+            </div>
+            <!-- =============================== -->
+
+            <!-- =============================== -->
+            <div class="NormalTitleBox" style="margin-bottom: 30px;">
+                <b>YDOOK.COM</b> <br> 大维度知识分享网站
             </div>
             <!-- =============================== -->
 
@@ -37,7 +89,7 @@
 
                  <!-- ======================================================================= -->
                  <div class="SubTitleBox">
-                    <div class="SubTitleBtn">Logo</div>
+                    <div class="SubTitleBtn">网站标志</div>
                     <div class="SubTitleCont">
                         <div class="PictureCent" style="background: url(./pictures/png/Y.png); 
                         background-size: 100% 100%; width: 260px; height: 260px;"></div>
@@ -47,28 +99,28 @@
 
                 <!-- ======================================================================= -->
                 <div class="SubTitleBox">
-                    <div class="SubTitleBtn">Purpose</div>
+                    <div class="SubTitleBtn">网站用途</div>
                     <div class="SubTitleCont">
-                        This website is a personal technical knowledge and data collection sharing website. Developed by: Jinwei Lin.
+                       本网站是个人技术知识与收集资料数据分享网站。开发作者为: 林进威（Jinwei Lin）.
                     </div>
                 </div>
                 <!-- ======================================================================= -->
 
                  <!-- ======================================================================= -->
                  <div class="SubTitleBox">
-                    <div class="SubTitleBtn">Contents</div>
+                    <div class="SubTitleBtn">网站内容</div>
                     <div class="SubTitleCont">
-                        Including the author Mr. Lin Jinwei's scientific research and technical achievements, open source contribution, blog, development online tools, personal third-party platform, all kinds of data collection experience sharing and the development of various websites.
+                       包括作者林进威先生的科研技术成果、开源贡献、博客、开发在线工具、个人第三方平台、各类收集数据经验分享以及旗下开发的各个网站大全收录。
                     </div>
                 </div>
                 <!-- ======================================================================= -->
 
                  <!-- ======================================================================= -->
                  <div class="SubTitleBox">
-                    <div class="SubTitleBtn">Copyright Notice</div>
+                    <div class="SubTitleBtn">版权声明</div>
                     <div class="SubTitleCont">
-                        If there is no special explanation, the content of this website is original by default, no one or organization can be reproduced without authorization. <br>
-                        For other shared resources, visitors to the subnets of YDOOK.COM or YDOOK.CN can download and use them according to relevant conditions. <br>
+                       如无特殊说明，本网站内容默认为原创，任何人或组织未经授权不能擅自转载。<br>
+                       其他分享资源，YDOOK.COM 旗下子网访客可以通过满足相应的条件进行对应的权限下载与使用。<br>
                     </div>
                 </div>
                 <!-- ======================================================================= -->
@@ -80,37 +132,39 @@
     <div class="BottomBoxUp">
         <div class="BottomBoxLeft">
             <div class="BottomItemLef"  onclick="Btn1()">
-                Home
+                首页 
             </div>
             <br>
             <br>
             <br>
             <div class="BottomItemLef" onclick="Btn2()">
-                About 
+                关于 
             </div>
-            <div class="BottomItemLef" onclick="Btn7()">
-                Navigation
+            <br><br>
+            <div class="BottomItemLef" onclick="Btn4()">
+                教程
             </div>
         </div>
         <div class="BottomBoxRight">
             <div class="BottomItemRight" onclick="UpTop()">
-                Top
+                顶部
             </div>
             <br>
             <br>
             <br>
             <div class="BottomItemRight" onclick="Advance()">
-                Forward 
+                前进
             </div>
+            <br><br>
             <div class="BottomItemRight" onclick="Return()">
-                Backward 
+                后退 
             </div>
         </div>
         
         
     </div>
     <div class="BottomBoxDown">
-        <a class="ALink" style="color: white;" target="_blank" href="https://www.miit.gov.cn/">Guangdong ICP 19004091 © 2019-2022 www.ydoo.com</a>
+        <a class="ALink" style="color: white;" target="_blank" href="https://beian.miit.gov.cn/">粤ICP备19004091号 © 2019-2022 www.ydoo.com</a>
     </div>
 </div>
 <div class="BottomGap"></div>
@@ -124,6 +178,175 @@
 
 
 <script>
+    function UpTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function Advance() {
+        window.history.go(1);
+    }
+
+    function Return() {
+        window.history.go(-1);
+    }
+</script>
+<script>
+    function MenuFold() {
+        var Div = document.getElementById('MenuPanel');
+        if (Div.style.display == 'none') {
+            Div.style.display = 'block';
+        } else {
+            Div.style.display = 'none';
+        }
+    }
+
+    function Menu(obj, ulID) {
+        var ulDiv = document.getElementById(ulID);
+        if (ulDiv.style.display == 'none') {
+            ulDiv.style.display = 'block';
+        } else {
+            ulDiv.style.display = 'none';
+        }
+    }
+
+    function GoLi(ilID) {
+        var newLink = './way' + ilID + '.html'
+        window.location.href = newLink;
+    }
+
+    function MenuDown(event) {
+        var menubox = document.getElementById('MenuBox');
+        var menubtn = document.getElementById('MenuBtn');
+        var menupanel = document.getElementById('MenuPanel');
+
+        var before_x = menubox.offsetLeft
+        var before_y = menubox.offsetTop
+
+        var down_x = event.clientX
+        var down_y = event.clientY
+
+        document.onmousemove = function (e) {
+            // console.log(' \nmenubox.offsetTop = ', menubox.offsetTop);
+            // console.log(' menubox.offsetLeft = ', menubox.offsetLeft);
+            // console.log('\ne.clientX = ', e.clientX);
+            // console.log('e.clientY = ', e.clientY);
+
+            var move_x = e.clientX
+            var move_y = e.clientY
+
+            var new_x = move_x - down_x
+            var new_y = move_y - down_y
+
+            menubox.style.left = (before_x + new_x).toString() + 'px';
+            menubox.style.top = (before_y + new_y).toString() + 'px';
+        }
+
+        document.onmouseup = function () {
+            document.onmousemove = null;
+        }
+    }
+
+    // ==============================================================================
+    // ==============================================================================
+    // Phone
+    var menubox = document.querySelector('#MenuBox');
+    var menubtn = document.querySelector('#MenuBtn');
+    var MenuPanel = document.querySelector('#MenuPanel');
+    var maxAbleWidth = window.screen.width - 50;
+    var maxAbleHeight = window.screen.height - 50;
+    var phoneWTrans = 800;
+
+    menubtn.addEventListener('touchstart', function (e) {
+        if (window.screen.width < phoneWTrans) {
+            // console.log('touchstart>>');
+
+            var event = e || window.event;
+            var touch = event.targetTouches[0];
+            objAbleLeft = touch.clientX - menubox.offsetLeft;
+            objAbleTop = touch.clientY - menubox.offsetTop;
+
+            document.addEventListener('touchmove', preventE, { passive: false });
+        }
+    });
+    menubtn.addEventListener('touchmove', function (e) {
+        if (window.screen.width < phoneWTrans) {
+            // console.log('touchmove>>');
+
+            var event = e || window.event;
+            var touch = event.targetTouches[0];
+            var objtLeft = touch.clientX - objAbleLeft;
+            var objtTop = touch.clientY - objAbleTop;
+
+            if (objtLeft < 0) {
+                objtLeft = 0;
+            } else if (objtLeft >= maxAbleWidth) {
+                objtLeft = maxAbleWidth;
+            }
+            if (objtTop < 0) {
+                objtTop = 0;
+            } else if (objtTop >= maxAbleHeight) {
+                objtTop = maxAbleHeight;
+            }
+
+            menubox.style.left = objtLeft + 'px';
+            menubox.style.top = objtTop + 'px';
+
+        }
+    });
+
+
+    menubtn.addEventListener('touchend', function () {
+        if (window.screen.width < phoneWTrans) {
+            document.removeEventListener('touchmove', preventE, { passive: false });
+        }
+    }, { passive: false });
+
+    function preventE(e) {
+        e.preventDefault();
+    }
+
+    // ==============================================================================
+    // ==============================================================================
+
+    function MenuGo(code) {
+        if (code == 'Go') {
+            var obj = document.getElementById('Go1');
+
+            if (obj.style.display == 'none') {
+                obj.style.display = 'block';
+            } else {
+                obj.style.display = 'none';
+            }
+        }
+    }
+
+    function Navigation(code) {
+
+        if (code == 'go1') {
+            window.history.go(1);
+        }
+        if (code == 'go2') {
+            window.history.go(-1);
+        }
+        if (code == 'go3') {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        if (code == 'go4') {
+            document.body.scrollTop = document.body.scrollHeight / 2;
+            document.documentElement.scrollTop = document.body.scrollHeight / 2;
+        }
+        if (code == 'go5') {
+            document.body.scrollTop = document.body.scrollHeight;
+            document.documentElement.scrollTop = document.body.scrollHeight;
+        }
+        if (code == 'go6') {
+            window.location.reload();
+        }
+    }
+</script>
+<script>
     function Btn1() {
         window.location.href = "./index.html";
     }
@@ -134,10 +357,10 @@
         window.location.href = "./author.html";
     }
     function Btn4() {
-        window.location.href = "./business.html";
+        window.location.href = "./tutorials.html";
     }
     function Btn5() {
-        window.location.href = "./tutorials.html";
+        window.location.href = "./researches.html";
     }
     function Btn6() {
         window.location.href = "./opensources.html";
@@ -151,8 +374,8 @@
     function Btn10() {
         window.open("https://ydook.blog.csdn.net");
     }
-    function Btn11() {
-        window.open('https://www.ydook.com' + window.location.pathname);
+    function Btn16() {
+        window.open('https://en.ydook.com' + window.location.pathname);
     }
 </script>
 <script>
@@ -214,37 +437,19 @@
         window.open("https://www.jianshu.com/u/770c7784e3e6");
     }
     function thirdparty6() {
-        window.open("https://www.zhihu.com/people/ydook.com");
+        window.open("https://ydook.cn");
     }
-   
+    function thirdparty7() {
+        window.open("https://en.ydook.cn");
+    }
     
 </script>
 
 
-
-<script>
-    function UpTop() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-
-    function Advance() {
-        window.history.go(1);
-    }
-
-    function Return() {
-        window.history.go(-1);
-    }
-
-    function keystop() {
-        window.event.returnValue=false;
-    }
-</script>
-
 <style>
-    @media only screen and (min-width: 501px) {
+    @media only screen and (min-width: 801px) {
         body {
-            background: rgb(229, 239, 220);
+            background: rgb(236, 236, 236);
             margin: 0;
             padding: 0;
             text-align: center;
@@ -253,10 +458,10 @@
         }
 
         .HeadLineM {
-            position: fixed;
-            background: rgb(31, 131, 156);
+            /* position: fixed; */
+            background: rgb(36, 131, 166);
             width: 100%;
-            min-height: 30px;
+            height: 45px;
             z-index: 10;
             left: 0px;
             top: 0px;
@@ -267,7 +472,7 @@
             margin-left: 10px;
             margin-top: 3px;
             margin-bottom: 3px;
-            height: 100%;
+            height: 38px;
             min-width: 60px;
             padding-left: 8px;
             padding-right: 8px;
@@ -281,7 +486,7 @@
         }
 
         .ToolBtn:hover {
-            background: rgb(2, 218, 207);
+            background: rgb(0, 255, 242);
             color: black;
         }
 
@@ -289,7 +494,7 @@
             margin: 0 auto;
             width: 1016px;
             /* background: rgb(139, 179, 218); */
-            margin-top: 88px;
+            margin-top: 68px;
         }
 
         .HoldBox {
@@ -304,10 +509,10 @@
         .Content {
             width: 982px;
             margin: 0 auto;
-            margin-top: 10px;
+            margin-top: 130px;
             margin-bottom: 10px;
             text-align: left;
-            background: rgb(175, 250, 172);
+            /* background: rgb(175, 250, 172); */
         }
 
         .BottomBox {
@@ -315,7 +520,7 @@
             width: 1016px;
             min-height: 100px;
             margin: 0 auto;
-            background: rgb(0, 66, 99);
+            background: rgb(6, 166, 166);
             text-align: left;
         }
 
@@ -344,11 +549,12 @@
             margin-top: 10px;
             margin-left: 10px;
             line-height: 38px;
-            background: rgb(0, 66, 98);
+            background: rgb(6, 166, 166);
             color: white;
             padding-left: 8px;
             padding-right: 8px;
             cursor: pointer;
+            font-weight: bolder;
         }
 
         .BottomItemLef:hover {
@@ -364,11 +570,12 @@
             margin-top: 10px;
             margin-right: 10px;
             line-height: 38px;
-            background: rgb(0, 66, 98);
+            background: rgb(6, 166, 166);
             color: white;
             padding-left: 8px;
             padding-right: 8px;
             cursor: pointer;
+            font-weight: bolder;
         }
 
         .BottomItemRight:hover {
@@ -380,7 +587,7 @@
             width: 1016px;
             height: 66px;
             margin: 0 auto;
-            background: rgb(229, 239, 220);
+            background: rgb(236, 236, 236);
         }
 
         .BottomBoxUp {
@@ -395,7 +602,7 @@
             width: 100%;
             min-height: 30px;
             line-height: 30px;
-            background: rgb(0, 38, 68);
+            background: rgb(0, 138, 138);
             text-align: center;
             color: white;
             font-size: 13px;
@@ -403,11 +610,189 @@
 
         .ALink {
             text-decoration: none;
+            color: black;
+        }
+
+        .Pic {
+            margin: 0 auto;
+            text-align: center;
+            /* background: rgb(231, 251, 255) no-repeat; */
+        }
+
+        .Code {
+            width: 98%;
+            height: auto;
+            background: rgb(6, 66, 66);
+            font-family: Consolas;
+            padding: 10px;
+            overflow-x: scroll;
+            color: white;
+        }
+
+        .Note {
+            width: 98%;
+            min-height: 300px;
+            background: rgb(226, 255, 250);
+            font-family: Consolas;
+            padding: 10px;
+        }
+
+        /* ============================================================ */
+
+        .MenuBox{
+            position: fixed;
+            top: 50px;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            /* background: rgb(166, 30, 6); */
+            z-index: 10;
+            background: url('./pictures/gif/Y.gif') no-repeat;
+            background-size: 100% 100%;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+        .MenuBtn{
+            float: left;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            /* background: rgb(6, 166, 166); */
+            user-select: none;
+            cursor: pointer;
+            user-select: none;
+        }
+        .MenuBtn:active {
+            background: rgba(0, 228, 228, 0.6);
+        }
+
+        .MenuPanel {
+            float: left;
+            text-align: left;
+            min-width: 200px;
+            min-height: 100px;
+            max-height: 500px;
+            border-radius: 8px;
+            background: rgba(251, 255, 251, 0.8);
+            overflow-y: scroll;
+            scrollbar-width: none; /* Firefox */
+        }
+        .MenuPanel::-webkit-scrollbar {
+          /* background: rgba(255, 250, 205, 0.6); */
+          background: rgba(116, 106, 96, 0.6);
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+        .MenuPanel::-webkit-scrollbar-thumb {
+          background: rgba(206, 233, 233, 0.8);
+          /* background: rgb(222, 233, 233); */
+          border-radius:8px;
+          border-radius:8px;
+        }
+        .MenuPanel::-webkit-scrollbar-thumb:hover {
+          background: rgb(133, 233, 188);
+          cursor: pointer;
+        }
+
+        /* ============================================================= */
+
+        .ALi {
+            list-style: none;
+            background: rgb(252, 252, 252);
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            user-select: none;
+            border-radius: 2px;
+            padding-left: 10px;
+        }
+        .ALi:hover {
+            background: rgb(166, 255, 238);
+        }
+
+        .AUi {
+            color: black;
+            margin-left: -30px;
+            list-style: none;
+            background: rgba(116, 106, 96, 0.6);
+            border: 1px solid rgb(0, 0, 0);
+        }
+        .BigAUi {
+            margin-top: 0px;
+            margin-bottom: 10px;
+            margin-left: -30px;
+            list-style: none;
+            background: rgb(222, 233, 233);
+            font-size: 20px;
+            cursor: pointer;
+            user-select: none;
+            padding-bottom: 1px;
+        }
+        .BigAUi:hover {
+            background: rgb(167, 240, 226);
+        }
+
+        /* ============================================================= */
+        /* ============================================================= */
+        .NavigateBox {
+            float: left;
+            width: 100%;
+            height: 90px;
+            background: rgba(66, 66, 66, 0.3);
+            cursor: pointer;
+        }
+        .NavigateBoxLeft {
+            float: left;
+            width: 50%;
+            height: 90px;
+            background: rgba(66, 66, 66, 0.3);
+        }
+        .NavigateBoxRight {
+            float: right;
+            width: 50%;
+            height: 90px;
+            background: rgba(66, 166, 166, 0.3);
+        }
+        .NavigateBoxLeftBtn {
+            float: left;
+            width: 100%;
+            height: 45px;
+            background: rgba(66, 66, 66, 0.3);
+            color: white;
+            line-height: 45px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .NavigateBoxLeftBtn:hover {
+            font-weight: bolder;
+            color: rgb(0, 255, 255);
+            background: rgba(190, 190, 190, 0.3);
+        }
+        .NavigateBoxRightBtn {
+            float: left;
+            width: 100%;
+            height: 30px;
+            background: rgba(66, 66, 66, 0.3);
+            color: white;
+            line-height: 30px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .NavigateBoxRightBtn:hover {
+            font-weight: bolder;
+            color: rgb(0, 255, 255);
+            background: rgba(190, 190, 190, 0.3);
         }
     }
 </style>
 <style>
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 800px) {
         body {
             /* background: rgb(229, 239, 220); */
             background: rgb(210, 228, 228);
@@ -457,7 +842,7 @@
             margin: 0 auto;
             width: 98%;
             /* background: rgb(139, 179, 218); */
-            margin-top: 60px;
+            margin-top: 90px;
             margin-left: 2%;
             margin-right: 2%;
         }
@@ -466,7 +851,7 @@
             float: left;
             margin: 0 auto;
             width: 98%;
-            margin-top: 150px;
+            margin-top: 130px;
             min-height: 300px;
             background: rgb(255, 255, 255);
             margin-bottom: 88px;
@@ -488,7 +873,7 @@
             width: 100%;
             min-height: 100px;
             margin: 0 auto;
-            background: rgb(0, 66, 99);
+            background: rgb(6, 166, 166);
             text-align: left;
         }
 
@@ -517,7 +902,7 @@
             margin-top: 10px;
             margin-left: 10px;
             line-height: 38px;
-            background: rgb(0, 66, 99);
+            background: rgb(6, 166, 166);
             color: white;
             padding-left: 8px;
             padding-right: 8px;
@@ -537,7 +922,7 @@
             margin-top: 10px;
             margin-right: 10px;
             line-height: 38px;
-            background: rgb(0, 66, 99);
+            background: rgb(6, 166, 166);
             color: white;
             padding-left: 8px;
             padding-right: 8px;
@@ -566,9 +951,9 @@
         .BottomBoxDown {
             float: left;
             width: 96%;
-            min-height: 30px;
-            line-height: 30px;
-            background: rgb(0, 38, 68);
+            min-height: 20px;
+            line-height: 20px;
+            background: rgb(0, 138, 138);
             text-align: center;
             color: white;
             font-size: 13px;
@@ -578,10 +963,228 @@
         .ALink {
             text-decoration: none;
         }
+
+        .Pic {
+            margin: 0 auto;
+            width: auto;
+            height: auto;
+            background-size: 100% 100%;
+            background: rgb(231, 251, 255) no-repeat;
+        }
+
+        .PicCont {
+            width: 100%;
+        }
+
+        .Code {
+            width: 93%;
+            height: auto;
+            background: rgb(6, 66, 66);
+            font-family: Consolas;
+            padding: 10px;
+            overflow-x: scroll;
+            color: white;
+            font-size: 18px;
+        }
+
+        .Note {
+            width: 93%;
+            min-height: 300px;
+            background: rgb(226, 255, 250);
+            font-family: Consolas;
+            padding: 10px;
+            overflow-x: scroll;
+        }
+
+        /* ============================================================ */
+
+        .MenuBox {
+            position: fixed;
+            top: 222px;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            /* background: rgb(166, 30, 6); */
+            z-index: 10;
+            background: url('./pictures/gif/Y.gif') no-repeat;
+            background-size: 100% 100%;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+
+        .MenuBtn {
+            float: left;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            /* background: rgb(6, 166, 166); */
+            user-select: none;
+            cursor: pointer;
+        }
+
+        .MenuBtn:active {
+            background: rgb(0, 228, 228);
+        }
+
+        .MenuPanel {
+            float: left;
+            text-align: left;
+            min-width: 200px;
+            min-height: 100px;
+            max-height: 300px;
+            border-radius: 8px;
+            background: rgba(251, 255, 251, 0.6);
+            overflow-y: scroll;
+            scrollbar-width: none;
+            /* Firefox */
+        }
+
+        .MenuPanel::-webkit-scrollbar {
+            background: rgba(116, 106, 96, 0.6);
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        .MenuPanel::-webkit-scrollbar-thumb {
+            background: rgba(206, 230, 219, 0.6);
+            border-radius: 8px;
+        }
+
+        .MenuPanel::-webkit-scrollbar-thumb:hover {
+            background: rgb(130, 223, 180);
+            cursor: pointer;
+        }
+
+        /* ============================================================= */
+
+        .ALi {
+            list-style: none;
+            background: rgba(233, 252, 236, 0.6);
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            user-select: none;
+            border-radius: 2px;
+            padding-left: 10px;
+        }
+
+        .ALi:hover {
+            background: rgb(166, 255, 238);
+        }
+
+        .AUi {
+            color: black;
+            margin-left: -30px;
+            list-style: none;
+            background: rgba(116, 106, 96, 0.6);
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        .BigAUi {
+            margin-top: 0px;
+            margin-bottom: 10px;
+            margin-left: -30px;
+            list-style: none;
+            background: rgba(222, 234, 235, 0.6);
+            font-size: 20px;
+            cursor: pointer;
+            user-select: none;
+            padding-bottom: 1px;
+        }
+
+        .BigAUi:hover {
+            background: rgba(166, 233, 226, 0.6);
+        }
+
+         /* ============================================================= */
+        /* ============================================================= */
+        .NavigateBox {
+            float: left;
+            width: 100%;
+            height: 90px;
+            background: rgba(66, 66, 66, 0.2);
+            cursor: pointer;
+        }
+        .NavigateBoxLeft {
+            float: left;
+            width: 50%;
+            height: 90px;
+            background: rgba(66, 66, 66, 0.2);
+        }
+        .NavigateBoxRight {
+            float: right;
+            width: 50%;
+            height: 90px;
+            background: rgba(66, 166, 166, 0.2);
+        }
+        .NavigateBoxLeftBtn {
+            float: left;
+            width: 100%;
+            height: 45px;
+            background: rgba(66, 66, 66, 0.2);
+            color: white;
+            line-height: 45px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .NavigateBoxLeftBtn:hover {
+            font-weight: bolder;
+            color: rgb(0, 255, 255);
+            background: rgba(190, 190, 190, 0.2);
+        }
+        .NavigateBoxRightBtn {
+            float: left;
+            width: 100%;
+            height: 30px;
+            background: rgba(66, 66, 66, 0.2);
+            color: white;
+            line-height: 30px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .NavigateBoxRightBtn:hover {
+            font-weight: bolder;
+            color: rgb(0, 255, 255);
+            background: rgba(190, 190, 190, 0.);
+        }
+
     }
 </style>
 <style>
-    @media only screen and (min-width: 501px) {
+    @media only screen and (min-width: 801px) {
+        .MainTitleBox {
+            width: 100%;
+            height: 116px;
+            margin: 0 auto;
+            background: rgb(6, 166, 166);
+        }
+
+        .MainTitleBoxLeft {
+            float: left;
+            height: 100%;
+            width: 15%;
+            /* background: rgb(0, 66, 99); */
+            margin-left: 1%;
+        }
+
+        .MainTitleBoxRight {
+            float: left;
+            height: 100%;
+            width: 83%;
+            /* background: rgb(130, 199, 208); */
+            font-size: 38px;
+            line-height: 58px;
+            text-align: center;
+            color: white;
+            overflow: hidden;
+        }
+
         .HeadLine {
             position: fixed;
             background: rgb(31, 131, 156);
@@ -590,47 +1193,12 @@
             z-index: 10;
         }
 
-        .MainTitleBox {
-            width: 1016px;
-            height: 116px;
-            margin: 0 auto;
-            background: rgb(0, 66, 99);
-        }
-
-        .MainTitleBoxLeft {
-            float: left;
-            height: 100%;
-            width: 120px;
-            /* background: rgb(23, 136, 192); */
-            background: rgb(0, 66, 99);
-            margin-left: 10px;
-        }
-
-        .MainTitleBoxRight {
-            float: left;
-            height: 100%;
-            width: 886px;
-            /* background: rgb(130, 179, 204); */
-            font-size: 60px;
-            line-height: 116px;
-            text-align: center;
-            color: white;
-            overflow: hidden;
-        }
-
-        .Slogan {
-            margin-left: 10%;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 36px;
-            color: rgb(0, 128, 160);
-        }
-
         .IconPic {
             height: 100px;
             width: 100px;
             margin: 0 auto;
             margin-top: 8px;
-            animation: moveway 6s infinite;
+            animation: moveway 3s infinite;
         }
 
         @keyframes moveway {
@@ -681,7 +1249,7 @@
             font-size: 22px;
             padding-left: 8px;
             padding-right: 8px;
-            background: rgb(6, 66, 99);
+            background: rgb(6, 166, 166);
             color: white;
             user-select: none;
             text-emphasis: none;
@@ -709,7 +1277,7 @@
             float: left;
             text-align: center;
             min-width: 60px;
-            height: 45px;
+            min-height: 45px;
             line-height: 45px;
             font-size: 20px;
             padding-left: 8px;
@@ -734,7 +1302,7 @@
             float: left;
             width: 100%;
             min-height: 60px;
-            background: rgb(6, 66, 99);
+            background: rgb(6, 166, 166);
             font-size: 60px;
             line-height: 100px;
             text-align: center;
@@ -749,14 +1317,6 @@
             user-select: none;
         }
 
-        .PicAuto {
-            margin: 0 auto;
-            background: rgb(233, 88, 8) no-repeat;
-            user-select: none;
-            width: 80%; 
-            height: 220px;
-        }
-
         .PictureLeft {
             float: left;
             background: rgb(233, 88, 8) no-repeat;
@@ -765,7 +1325,7 @@
 
         .PictureBack {
             width: 100%;
-            background: rgb(6, 66, 66) no-repeat;
+            background: rgb(6, 166, 166) no-repeat;
             user-select: none;
         }
 
@@ -811,37 +1371,62 @@
             text-align: left;
             /* background: rgb(128, 239, 133); */
         }
+
+        /* ==================================================== */
+        .WayNoteBox {
+            width: auto;
+            height: auto;
+            background: orange;
+        }
+        .WayNoteIcon{
+            float: left;
+            width: 50px;
+            height: 50px;
+            /* background: rgb(0, 255, 34); */
+        }
+        .WayNoteContent {
+            float: left;
+            width: 100%;
+            min-height: 50px;
+            padding-left: 10px;
+            line-height: 50px;
+            font-size: 26px;
+            background: rgb(222, 255, 255);
+        }
+        .WayNoteContent:hover {
+            background: rgb(88, 255, 238);
+        }
     }
 </style>
 <style>
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 800px) {
         .MainTitleBox {
             width: 100%;
-            height: 60px;
+            height: 116px;
             margin: 0 auto;
-            background: rgb(0, 66, 99);
+            background: rgb(6, 166, 166);
         }
 
         .MainTitleBoxLeft {
             float: left;
             height: 100%;
             width: 15%;
-            /* background: rgb(23, 136, 192); */
             /* background: rgb(0, 66, 99); */
             margin-left: 1%;
         }
 
         .MainTitleBoxRight {
-            float: right;
+            float: left;
             height: 100%;
             width: 83%;
-            /* background: rgb(130, 179, 204); */
-            font-size: 28px;
-            line-height: 60px;
+            /* background: rgb(130, 199, 208); */
+            font-size: 38px;
+            line-height: 58px;
             text-align: center;
             color: white;
             overflow: hidden;
         }
+
 
         .Slogan {
             margin-left: 10%;
@@ -855,7 +1440,7 @@
             width: 46px;
             margin: 0 auto;
             margin-top: 6px;
-            animation: moveway 6s infinite;
+            animation: moveway 3s infinite;
         }
 
         @keyframes moveway {
@@ -892,7 +1477,7 @@
             font-size: 22px;
             padding-left: 8px;
             padding-right: 8px;
-            background: rgb(6, 66, 99);
+            background: rgb(6, 166, 166);
             color: white;
             user-select: none;
             text-emphasis: none;
@@ -910,7 +1495,7 @@
             min-height: 100px;
             /* background: rgba(165, 214, 241, 0.685); */
             color: black;
-            border: 1px solid rgb(6, 66, 99);
+            border: 1px solid rgb(6, 166, 166);
             padding: 10px;
             font-size: 20px;
             line-height: 36px;
@@ -920,7 +1505,7 @@
             float: left;
             text-align: center;
             min-width: 60px;
-            height: 45px;
+            min-height: 45px;
             line-height: 45px;
             font-size: 20px;
             padding-left: 8px;
@@ -945,7 +1530,7 @@
             float: left;
             width: 100%;
             min-height: 60px;
-            background: rgb(6, 66, 99);
+            background: rgb(6, 166, 166);
             font-size: 30px;
             line-height: 60px;
             text-align: center;
@@ -959,14 +1544,11 @@
             background: rgb(233, 88, 8) no-repeat;
             user-select: none;
         }
-        
-        .PicAuto {
-            margin: 0 auto;
-            background: rgb(233, 88, 8) no-repeat;
+
+        .KeyPic {
+            float: left;
             user-select: none;
-            width: 280px; 
-            height: 80px;
-            margin-top: 5%;
+            pointer-events:none;
         }
 
         .PictureLeft {
@@ -977,7 +1559,7 @@
 
         .PictureBack {
             width: 100%;
-            background: rgb(6, 66, 66) no-repeat;
+            background: rgb(6, 166, 166) no-repeat;
             user-select: none;
         }
         /* ============================================================= */
@@ -1022,8 +1604,33 @@
             text-align: left;
             /* background: rgb(128, 239, 133); */
         }
+
+        /* ==================================================== */
+        .WayNoteBox {
+            width: auto;
+            height: auto;
+            background: orange;
+        }
+        .WayNoteIcon{
+            float: left;
+            width: 50px;
+            height: 50px;
+            /* background: rgb(0, 255, 34); */
+        }
+        .WayNoteContent {
+            float: left;
+            width: 96%;
+            min-height: 50px;
+            padding-left: 10px;
+            line-height: 50px;
+            font-size: 26px;
+            background: rgb(222, 255, 255);
+        }
+        .WayNoteContent:hover {
+            background: rgb(88, 255, 238);
+        }
     }
-</style><script>console.log('\\A/ Hi, Way! - An easy and fast front-end generator library.');</script>
+</style><script>console.log('\\A/ Hi, Way! - An easy and fast front-end generator framework.');</script>
 
 
 
